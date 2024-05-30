@@ -45,26 +45,26 @@ export default function App() {
                 <Route path="/newfile/home" element={<Home />} />
                 <Route path="/newfile/login" element={<Login />} />
                 <Route path="/newfile/register" element={<Registration />} />
-                <Route path="/forgot-password" element={<ForgotPassword />} />
-                <Route path="/terms-and-condition" element={<Terms />} />
+                <Route path="/newfile/forgot-password" element={<ForgotPassword />} />
+                <Route path="/newfile/terms-and-condition" element={<Terms />} />
                 <Route path="*" element={<PageNotFound />} />
 
                 {/* <Route path="/user" element={<Userroute/>} > */}
-                <Route path="/user/dashboard" element={<Admindashboard />} />
-                <Route path="/user/add-doctor" element={<Adddoctor />} />
-                <Route path="/user/doctor-list" element={<DoctorList />} />
-                <Route path="/user/test-dc" element={<TestDc />} />
-                <Route path="/user/doctor-commission" element={<DoctorCommission />} />
+                <Route path="/newfile/user/dashboard" element={<Admindashboard />} />
+                <Route path="/newfile/user/add-doctor" element={<Adddoctor />} />
+                <Route path="/newfile/user/doctor-list" element={<DoctorList />} />
+                <Route path="/newfile/user/test-dc" element={<TestDc />} />
+                <Route path="/newfile/user/doctor-commission" element={<DoctorCommission />} />
 
                 <Route path="/user/test-list" element={<Test />} />
                 <Route path="/user/add-test" element={<Addtest />} />
 
-                <Route path="/user/add-report" element={<AddReport />} />
-                <Route path="/user/report-list" element={<ReportList />} />
-                <Route path="/user/report-template" element={<ReportTemplate />} />
+                <Route path="/newfile/user/add-report" element={<AddReport />} />
+                <Route path="/newfile/user/report-list" element={<ReportList />} />
+                <Route path="/newfile/user/report-template" element={<ReportTemplate />} />
                 <Route path="/user/download-report" element={<DownloadReport />} />
 
-                <Route path="/user/contact-us" element={<ContactUs/>} />
+                <Route path="/newfile/user/contact-us" element={<ContactUs/>} />
 
 
                 {/* </Route> */}
