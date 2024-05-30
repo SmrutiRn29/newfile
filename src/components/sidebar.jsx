@@ -161,7 +161,7 @@ function Sidebar() {
                             <ul className="sidebar_components">
                                 {/* Dashboard */}
                                 <li className="sidebar_tabs">
-                                    <NavLink to="/user/dashboard" onClick={() => handleTabClick("dashboard")}>
+                                    <NavLink to="/newfile/user/dashboard" onClick={() => handleTabClick("dashboard")}>
                                         <FontAwesomeIcon className="sidebar_icon" icon={faHouse} />
                                         <div>Dashboard</div>
                                     </NavLink>
@@ -182,22 +182,22 @@ function Sidebar() {
 
                                     <ul className={subMenuOpen.doctor ? "sidebar_subheading open" : "sidebar_subheading"}>
                                         <li>
-                                            <NavLink to="/user/add-doctor" onClick={() => handleTabClick("add-doctor")}>
+                                            <NavLink to="/newfile/user/add-doctor" onClick={() => handleTabClick("add-doctor")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div> Add Doctor</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/doctor-commission" onClick={() => handleTabClick("doctor-commission")}>
+                                            <NavLink to="/newfile/user/doctor-commission" onClick={() => handleTabClick("doctor-commission")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Doctor Commission</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/test-dc" onClick={() => handleTabClick("test-dc")}>
+                                            <NavLink to="/newfile/user/test-dc" onClick={() => handleTabClick("test-dc")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Test DC</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/doctor-list" onClick={() => handleTabClick("doctor-list")}>
+                                            <NavLink to="/newfile/user/doctor-list" onClick={() => handleTabClick("doctor-list")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Doctor List</div>
                                             </NavLink>
                                         </li>
@@ -219,12 +219,12 @@ function Sidebar() {
 
                                     <ul className={subMenuOpen.test ? "sidebar_subheading open" : "sidebar_subheading"}>
                                         <li>
-                                            <NavLink to="/user/test-list" onClick={() => handleTabClick("test-list")}>
+                                            <NavLink to="/newfile/user/test-list" onClick={() => handleTabClick("test-list")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Test List</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/add-test" onClick={() => handleTabClick("add-test")}>
+                                            <NavLink to="/newfile/user/add-test" onClick={() => handleTabClick("add-test")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Add Test</div>
                                             </NavLink>
                                         </li>
@@ -245,22 +245,22 @@ function Sidebar() {
 
                                     <ul className={subMenuOpen.report ? "sidebar_subheading open" : "sidebar_subheading"}>
                                         <li>
-                                            <NavLink to="/user/add-report" onClick={() => handleTabClick("add-report")}>
+                                            <NavLink to="/newfile/user/add-report" onClick={() => handleTabClick("add-report")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Add Report</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/report-list" onClick={() => handleTabClick("report-list")}>
+                                            <NavLink to="/newfile/user/report-list" onClick={() => handleTabClick("report-list")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Report List</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/report-template" onClick={() => handleTabClick("report-template")}>
+                                            <NavLink to="/newfile/user/report-template" onClick={() => handleTabClick("report-template")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Report Template</div>
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/user/download-report" onClick={() => handleTabClick("download-report")}>
+                                            <NavLink to="/newfile/user/download-report" onClick={() => handleTabClick("download-report")}>
                                                 <span className="sidebar_subpoints" >{CaretRightIcon}</span><div>Download Report</div>
                                             </NavLink>
                                         </li>

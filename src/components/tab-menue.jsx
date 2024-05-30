@@ -20,7 +20,7 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/dashboard" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/dashboard" className="nabbar_tabs_name">
                                     Dashboard
                                 </NavLink>
                             </div>
@@ -35,12 +35,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/add-doctor" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/add-doctor" className="nabbar_tabs_name">
                                     Add&nbsp;Doctor
                                 </NavLink>
 
                                 {activeOrgLink && "add-doctor" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
                                 ) : (
@@ -61,12 +61,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/doctor-commission" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/doctor-commission" className="nabbar_tabs_name">
                                     Doctor&nbsp;Commission
                                 </NavLink>
 
                                 {activeOrgLink && "doctor-commission" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
                                 ) : (
@@ -86,12 +86,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/test-dc" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/test-dc" className="nabbar_tabs_name">
                                     Test&nbsp;DC
                                 </NavLink>
 
                                 {activeOrgLink && "test-dc" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
                                 ) : (
@@ -111,12 +111,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/doctor-list" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/doctor-list" className="nabbar_tabs_name">
                                     Doctor&nbsp;List
                                 </NavLink>
 
                                 {activeOrgLink && "doctor-list" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
                                 ) : (
@@ -136,12 +136,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/test-list" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/test-list" className="nabbar_tabs_name">
                                     Test&nbsp;List
                                 </NavLink>
 
                                 {activeOrgLink && "test-list" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
 
@@ -163,12 +163,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/add-test" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/add-test" className="nabbar_tabs_name">
                                     Add&nbsp;test
                                 </NavLink>
 
                                 {activeOrgLink && "add-test" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
 
@@ -190,12 +190,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/add-report" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/add-report" className="nabbar_tabs_name">
                                     Add&nbsp;Report
                                 </NavLink>
 
                                 {activeOrgLink && "add-report" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
 
@@ -217,12 +217,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/report-list" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/report-list" className="nabbar_tabs_name">
                                     Report&nbsp;List
                                 </NavLink>
 
                                 {activeOrgLink && "report-list" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
 
@@ -243,12 +243,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/report-template" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/report-template" className="nabbar_tabs_name">
                                     Report&nbsp;template
                                 </NavLink>
 
                                 {activeOrgLink && "report-template" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
 
@@ -269,12 +269,12 @@ export const TabMenu = ({ activeOrgLink, activeTabs, removeTab, showTabs, active
                             enterDelay={700}
                         >
                             <div key={index} className="navbar_tabs" style={{ backgroundColor: activeTab === tab ? 'rgb(212, 152, 245)' : '' }}>
-                                <NavLink to="/user/download-report" className="nabbar_tabs_name">
+                                <NavLink to="/newfile/user/download-report" className="nabbar_tabs_name">
                                     Download&nbsp;Report
                                 </NavLink>
 
                                 {activeOrgLink && "download-report" === activeTab ? (
-                                    <NavLink to={`/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
+                                    <NavLink to={`/newfile/user/${activeOrgLink}`} onClick={() => removeTab(tab)}>
                                         <FontAwesomeIcon className="remove_icon" icon={faTimes} />
                                     </NavLink>
 
