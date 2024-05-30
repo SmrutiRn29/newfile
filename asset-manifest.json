@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SmrutiRn29/newfile/static/css/main.016d7cba.css",
+    "main.js": "/SmrutiRn29/newfile/static/js/main.94030642.js",
+    "index.html": "/SmrutiRn29/newfile/index.html",
+    "main.016d7cba.css.map": "/SmrutiRn29/newfile/static/css/main.016d7cba.css.map",
+    "main.94030642.js.map": "/SmrutiRn29/newfile/static/js/main.94030642.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.016d7cba.css",
+    "static/js/main.94030642.js"
+  ]
+}
