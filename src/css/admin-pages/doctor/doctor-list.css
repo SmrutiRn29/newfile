@@ -1,0 +1,114 @@
+p {
+    margin-bottom: 0px;
+}
+.dark-mode .doctor_list_main_page{
+    background-color: var(--background-dark);
+}
+.doctor_list_main_page {
+    width: 100%;
+    background-color: var(--background-white);
+    display: flex;
+    font-family: var(--font-family);
+}
+
+.doctor_list_base_page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1250px;
+}
+
+.dark-mode .doctor_list_base_page {
+    background-color: var(--background-dark);
+}
+
+.doctor_list_heding {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: var(--bacground);
+    padding: var(--padding-box);
+    margin-bottom: var(--margin-top);
+    border-radius: var(--border-radius);
+}
+.dark-mode .doctor_list_heding{
+    background-color: var(--background-dark-tab);
+    color: var(--background-white);
+    border: none;
+}
+
+.doctor_List_main {
+    width: 95%;
+    min-width: 300px;
+    max-width: 1400px;
+    /* height: 100vh; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.doctor_list_details_page {
+    width: 100%;
+    height: 70vh;
+}
+
+.doctor_list_search_page {
+    margin-bottom: var(--margin-botton);
+}
+
+.doctor_list_search_page input {
+    padding: 4px 10px;
+    width: 100%;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+.dark-mode .doctor_list_search_page input {
+    background-color: var(--background-dark-tab);
+    color: var(--background-white-dark);
+    border: var(--border-white-dark)
+}
+
+::placeholder {
+    /* color: black; */
+}
+
+
+.dark-mode ::placeholder {
+    color: var(--background-white);
+}
+
+.css-qcqlck-MuiDataGrid-root .MuiDataGrid-container--top [role=row],
+.css-qcqlck-MuiDataGrid-root .MuiDataGrid-container--bottom [role=row] {
+    background: var(--bacground) !important;
+}
+
+
+
+
+.doctor_test_table ::-webkit-scrollbar {
+    height: 5px;
+}
+
+.doctor_test_table ::-webkit-scrollbar-track {
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.dark-mode .doctor_test_table ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.dark-mode .doctor_test_table ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.doctor_test_table ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.doctor_test_table ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

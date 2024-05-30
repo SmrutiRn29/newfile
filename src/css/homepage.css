@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* aboutus page start  */
+.homepage_main{
+    height: 96vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus_page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus_page_main {
+    min-width: 300px;
+    max-width: 1300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+
+}
+
+.aboutus_image_card {
+    width: 300px;
+    height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.aboutus_image {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.aboutus_details {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.aboutus_year {
+    font-family: "Freeman", sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    color: #6195fe;
+    letter-spacing: 7px;
+}
+
+.aboutus_experiance {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    color: #6195fe;
+}
+
+.aboutus_heading {
+    font-family: "Freeman", sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 35px;
+    max-width: 450px;
+    min-width: 300px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+
+}
+
+.aboutus_paragraph {
+    margin-top: 30px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    max-width: 560px;
+    min-width: 300px;
+    font-size: 17px;
+    word-spacing: 3px;
+}
+.about_details_last_rap{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.aboutus_explore {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6195fe;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-family: "Freeman", sans-serif;
+}
+.aboutus_card{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.dark-mode .aboutus_details_card{
+    background-color: var(--background-dark-tab);
+}
+.aboutus_details_card{
+    border-left: solid 1.5px #6195fe;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;    
+}
+.aboutus_details_card:hover{
+    border-left: solid 1px #2b00ff;
+}
+.aboutus_details_icon{
+    font-size: 55px;
+}
+.aboutus_details_heading{
+    font-family: var(--font-family);
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.aboutus_details_paragraph{
+    font-family: var(--font-family);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* about us page end  */
+
+
+.box{
+    margin-bottom: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: red;
+}

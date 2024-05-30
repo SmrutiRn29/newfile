@@ -1,0 +1,150 @@
+.login_main{
+    height: 100vh;
+    background-color: var(--bacground)
+}
+.login_page_base{
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    background-color: var(--bacground);
+    align-items: center;
+}
+.loging_page_design{
+    width: 50%;  
+    height: 100%; 
+    background-color:var(--background-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_page_image{
+    height: 400px;
+    width: 400px;
+}
+.loging_form{
+    width: 50%;
+    height: 100%; 
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.company_name{
+    font-weight: var(--heading);
+    font-size:var(--font-size-heading);
+    font-family: var(--font-family);
+    text-transform: var(--uppercase);
+    margin-bottom: var(--margin-botton);
+}
+.login_submit_form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 90%;
+    min-width: 270px;
+    max-width: 370px;
+}
+.submit_form_label{
+    display: flex;
+    align-items: flex-start ;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size);
+}
+.submit_form_label_password{
+    display: flex;
+    align-items: flex-start ;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size);
+}
+.login_label{
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-botton);
+}
+.login_input_box{
+    width: 100%;
+    padding:var(--padding-box);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    background-color: var(--bacground);
+}
+.toggle_password_button{
+    background: none;
+    border: none;
+    margin-left: -25px;
+}
+.signin_btn button{
+    margin-top: var(--margin-top);
+    font-family: var(--font-family);
+    width: 100%;
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: var(--bottom-color);
+    color: var(--botton-text);
+    padding: 10px;
+
+}
+.forgot_pass_page{
+    font-family: var(--font-family);
+    margin-top: var(--margin-top);
+    width: 100%;
+    text-align: right;
+}
+.register_page p{
+    font-family: var(--font-family);
+    margin-top: var(--margin-top);
+    width: 100%;
+    text-align: center;
+}
+.page_link{
+    color: var(--link-color);
+}
+
+.text-center{
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    color: rgb(255, 0, 0); 
+    border-radius: 0px !important;
+}
+.text-center-success{
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    color: rgb(0, 131, 31);
+    text-align: center;
+    border-radius: 0px !important;
+}
+
+@media (max-width:786px){
+    .loging_form{
+        width: 100%;
+        height: 100%; 
+        background-color: var(--background);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .loging_page_design{
+        display: none;
+    }
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other content */
+    background-color: #ffffff; /* Adjust background color as needed */
+    /* Add any other styles you need for your header */
+}

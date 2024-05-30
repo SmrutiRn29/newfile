@@ -1,0 +1,119 @@
+.registration_main {
+    height: 100vh;
+    background-color: var(--background)
+}
+
+.registration_page_base {
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bacground);
+    align-items: center;
+}
+
+.registration_page_design {
+    width: 50%;
+    height: 100vh;
+    background-color: var(--bacground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registration_form_left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration_page_company_name {
+    width: 50%;text-align: center;
+    font-weight: var(--heading);
+    font-size: var(--font-size-heading);
+    font-family: var(--font-family);
+    text-transform: capitalize;
+}
+
+.registration_submit_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    width: 90%;
+    min-width: 270px;
+    max-width: 470px;
+}
+
+.registration_submit_form_label {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size);
+}
+
+.registration_label {
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-botton);
+}
+
+.registration_form_left .registration_input_box {
+    width: 100%;
+    padding: var(--padding-box);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    background-color: var(--bacground);
+}
+.registration_textarea_box {
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+    padding: var(--padding-box);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+.registration_btn {
+    width: 100%;
+}
+
+.registration_btn button {
+    margin-top: var(--margin-top);
+    font-family: var(--font-family);
+    width: 100%;
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: var(--bottom-color);
+    color: var(--botton-text);
+    padding: 10px;
+
+}
+
+.registration_page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.registration_page p {
+    font-family: var(--font-family);
+    margin-top: var(--margin-top);
+    width: 100%;
+    margin-left: 7px;
+    text-align: left;
+}
+
+.registration_page_link {
+    color: var(--link-color);
+}

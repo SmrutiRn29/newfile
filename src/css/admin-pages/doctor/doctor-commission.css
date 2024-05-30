@@ -1,0 +1,151 @@
+p {
+    margin-bottom: 0px;
+}
+
+.doctor_commission{
+    width: 100%;
+    background-color: var(--background-white);
+    display: flex;
+    font-family: var(--font-family);
+}
+.dark-mode .doctor_commission{
+    background-color: var(--background-dark);
+}
+
+.doctor_commission_base {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1250px;
+}
+.dark-mode .doctor_commission_base {
+    background-color: var(--background-dark-tab);
+}
+.doctor_commission_details_page {
+    width: 95%;
+    /* height: 70vh; */
+    margin: 10px;
+    /* background-color: red; */
+    padding: var(--padding-box);
+}
+
+.admin_page_heaedr {
+    width: 90%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--margin-botton);
+}
+
+
+.doctor_commission {
+    width: 100%;
+    margin-bottom: var(--margin-botton);
+}
+
+.doctor_commission_form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dark-mode .doctor_commission_form{
+    background-color: var(--background-dark-tab);
+}
+.dark-mode .css-qcqlck-MuiDataGrid-root .MuiDataGrid-cell--textLeft{
+    color: var(--background-white);
+}
+.dark-mode .css-t89xny-MuiDataGrid-columnHeaderTitle{
+    color: var(--background-white);
+}
+.dark-mode .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar{
+    color: var(--background-white);
+}
+.dark-mode .css-de9k3v-MuiDataGrid-selectedRowCount{
+    color: var(--background-white);
+}
+
+.dark-mode .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+    color: var(--background-white);
+}
+.dark-mode .css-i4bv87-MuiSvgIcon-root{
+    color: var(--background-white);
+}
+
+.doctor_commission_form_card {
+    width: 25%;
+    background-color:var(--bacground);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: var(--font-weight-normal);
+    border-radius: var(--border-radius);
+    margin-right: 10px;
+}
+.doctor_commission_form_card label{
+    margin-right: 10px;
+}
+
+.doctor_commission_form_card input {
+    border-radius: var(--border-radius);
+    padding: 4px;
+    border: var(--border);
+    width: 100%;
+}
+.dark-mode .doctor_commission_form_card input{
+    background-color: var(--background-dark);
+    color: var(--background-white);
+}
+.doctor_commission_search_page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: var(--margin-botton);
+}
+.search_box{
+   width: 98%;
+   border: var(--border);
+   border-radius: var(--border-radius);
+   padding: 8px 10px;
+}
+.doctor_commission_search{
+    width: 100%;
+   
+    margin-right: 20px;
+}
+.doctor_commission_submit button{
+    width: 200px;
+    background-color: #0A0233;
+    color:white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: var(--padding-box);
+}
+
+.doctor_commission_table ::-webkit-scrollbar {
+    height: 5px;
+}
+
+.doctor_commission_table ::-webkit-scrollbar-track {
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.dark-mode .doctor_commission_table ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.dark-mode .doctor_commission_table ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.doctor_commission_table ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.doctor_commission_table ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

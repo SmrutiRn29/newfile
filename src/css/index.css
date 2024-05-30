@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background-color: aliceblue;
+    --background: rgb(214, 242, 235);
+    --background-dark: rgb(0, 3, 15);
+    --light-mode-border:1.5px solid #bababa;
+    --background-white: #ffffff;
+    --background-white-dark: rgb(214, 242, 235);
+    --background-dark-tab: rgba(255, 255, 255, 0.08);
+    --border-white-dark: solid 0.5px rgb(214, 242, 235);
+    --font-size-heading: 18px;
+    --heading: 600;
+    --font-family: "Public Sans", sans-serif;
+    --uppercase: uppercase;
+    --margin-top: 10px;
+    --margin-botton: 10px;
+    --border-radius: 4px;
+    --border: solid 0.5px rgb(10, 2, 51);
+    --bottom-color: rgb(0, 3, 15);
+    --botton-text: white;
+    --link-color: rgb(13, 136, 39);
+    --font-size: 15px;
+    --details-font-size: 0.8rem;
+    --padding-box: 5px;
+    --margin: 10px;
+    --margin-short: 5px;
+    --box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+
+/* Dark mode */
+.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--background-white-dark);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

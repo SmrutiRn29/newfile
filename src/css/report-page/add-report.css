@@ -1,0 +1,112 @@
+.add_report {
+    font-family: var(--font-family);
+    margin: 20px 10px;
+}
+.add_report_base{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    max-width: 1250px;
+    width: 50%;
+    max-width: 650px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: var(--background-color);
+}
+
+.dark-mode .add_report_base {
+    padding: 10px;
+    background-color: var(--background-dark-tab);
+    border-radius: var(--border-radius);
+    border: none;
+}
+
+.add_report_heding {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding-box);
+    border: 0.3px solid rgb(223, 223, 223);
+    background-color: var(--background-color);
+    width: 100%;
+    margin-bottom: var(--margin-top);
+    border-radius: var(--border-radius);
+}
+
+.dark-mode .add_report_heding {
+    background-color: var(--background-dark);
+    border: none;
+}
+.add_report_heding p {
+    font-size: var(--font-size-heading);
+    font-weight: var(--heading);
+}
+
+.add_report_submit_card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.add_report_submit_form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+.add_report_form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.add_report_submit_index {
+    width: 100%;
+    max-width: 650px;
+}
+.add_report_submit_input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.add_report_submit_input label {
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-top);
+    font-weight: var(--font-weight-normal);
+}
+
+.add_report_submit_input select {
+    padding: 6px 10px;
+    width: 100%;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    border: var(--light-mode-border);
+    background-color: var(--background-color);
+}
+
+.dark-mode .add_report_submit_input select {
+    background-color: var(--background-dark);
+    color: var(--background-white);
+    border: none;
+}
+
+.add_report_submit_input textarea {
+    height: 90px;
+    max-height: 140px;
+    min-width: 120px;
+    padding: var(--padding-box);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    border: var(--light-mode-border);
+    background-color: var(--background-color);
+}
+
+.dark-mode .add_report_submit_input textarea {
+    background-color: var(--background-dark);
+    color: var(--background-white);
+    border: none;
+}
