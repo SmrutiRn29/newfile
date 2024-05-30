@@ -40,7 +40,7 @@ export default function App() {
               </div>
             )}
             <div style={{ width: "100%", overflow: "auto" }}>
-              <Routes>
+              <Routes basename="/newfile">
                 <Route index element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/login" element={<Login />} />
