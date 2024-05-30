@@ -40,11 +40,11 @@ export default function App() {
               </div>
             )}
             <div style={{ width: "100%", overflow: "auto" }}>
-              <Routes basename="/user">
+              <Routes basename="/newfile">
                 <Route index element={<Home />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Registration />} />
+                <Route path="/newfile/home" element={<Home />} />
+                <Route path="/newfile/login" element={<Login />} />
+                <Route path="/newfile/register" element={<Registration />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/terms-and-condition" element={<Terms />} />
                 <Route path="*" element={<PageNotFound />} />
